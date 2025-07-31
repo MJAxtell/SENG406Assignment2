@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 380,
-              "y": 130
+              "x": -2760,
+              "y": 600
             },
             "size": {
               "width": 112.5,
@@ -101,23 +101,23 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "6062f171-4af2-49d0-b064-4f60f0a453b2"
+                  "id": "663ee401-f6b4-4bf0-ae69-34a50f6fc277"
                 },
                 {
                   "group": "right",
-                  "id": "62e99bf6-6c19-4ec2-ac7d-71619eab376b"
+                  "id": "662a4a2c-0c0b-4819-95a7-9bcadfa24569"
                 },
                 {
                   "group": "bottom",
-                  "id": "fc170523-11da-468a-b44e-8f340853a72f"
+                  "id": "08700df5-cfb3-4853-9ff6-7dcd9e837e0c"
                 },
                 {
                   "group": "left",
-                  "id": "b79354ac-c1b6-4896-9d04-4b69a8a17c7d"
+                  "id": "80961495-494e-4dbc-887c-e711c2e0294d"
                 }
               ]
             },
-            "id": "95d4fdba-4f04-4de9-aae9-85780aac956c",
+            "id": "dd050952-37ff-43da-b2eb-07c5412aea16",
             "zIndex": 1,
             "data": {
               "type": "tm.Actor",
@@ -129,6 +129,127 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -2320,
+              "y": 300
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "663ee401-f6b4-4bf0-ae69-34a50f6fc277"
+                },
+                {
+                  "group": "right",
+                  "id": "662a4a2c-0c0b-4819-95a7-9bcadfa24569"
+                },
+                {
+                  "group": "bottom",
+                  "id": "08700df5-cfb3-4853-9ff6-7dcd9e837e0c"
+                },
+                {
+                  "group": "left",
+                  "id": "80961495-494e-4dbc-887c-e711c2e0294d"
+                }
+              ]
+            },
+            "id": "d4c833da-ba72-47b3-9c68-ec98b1bd5e1c",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Actor",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           }
         ],
